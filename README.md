@@ -11,7 +11,7 @@ This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (
 - Prints `TF-IDF` vectors for analysis.
 - Provides responses based on predefined intents.
 
-Improvements
-Added TF-IDF feature extraction to convert text into numerical form.
-Displayed TF-IDF vectors for better understanding of feature weights.
-Trained Logistic Regression model using TF-IDF features.s
+## Improvements
+-Added TF-IDF feature extraction to convert text into numerical form.
+-Displayed TF-IDF vectors for better understanding of feature weights.
+-Trained Logistic Regression model using TF-IDF features.s
