@@ -1,5 +1,4 @@
 # AICTE-Internship
-Implementation of Chatbot
 # AI Chatbot Using NLP & Machine Learning
 
 This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (ML)** to respond to user queries.
