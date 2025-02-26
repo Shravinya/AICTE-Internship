@@ -2,7 +2,7 @@
 # AI Chatbot Using NLP & Machine Learning
 
 This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (ML)** to respond to user queries.
-
+## WEEK 1
 ## Features
 - Uses `NLTK` for text processing.
 - Implements `TF-IDF` for feature extraction.
