@@ -14,3 +14,12 @@ This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (
 - Added TF-IDF feature extraction to convert text into numerical form.
 - Displayed TF-IDF vectors for better understanding of feature weights.
 - Trained Logistic Regression model using TF-IDF features.
+
+
+## WEEK 2
+## Improvements
+- Expanded intent matching with better response classification.
+- Improved training data to enhance chatbot accuracy.
+- Randomized responses for more natural conversations.
+- Better handling of unknown queries to avoid incorrect replies.
+- Refined intent labels to ensure accurate classification.
