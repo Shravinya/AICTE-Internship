@@ -69,7 +69,7 @@ This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (
 ## Installation & Setup
 
 - Clone the repository
-- git clone https://github.com/your-username/chatbot-project.git
+- git clone https://github.com/Shravinya/chatbot-project.git
 - cd chatbot-project
 - Install dependencies
 - pip install -r requirements.txt
