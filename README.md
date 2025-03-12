@@ -25,120 +25,74 @@ This chatbot uses **Natural Language Processing (NLP)** and **Machine Learning (
 - Refined intent labels to ensure accurate classification.
 
 
-week 3 
-app.py
-Add files via upload
-1 minute ago
-chat_log.csv
-Add files via upload
-1 minute ago
-chatbot.py
-Add files via upload
-1 minute ago
-chatbot_model.h5
-Add files via upload
-1 minute ago
-classes.pkl
-Add files via upload
-1 minute ago
-intents.json
-Add files via upload
-1 minute ago
-tokenizer.pkl
+## WEEK 3
+# Files Added
+- app.py - Streamlit frontend for chatbot
+- chat_log.csv - Stores conversation history
+- chatbot.py - Backend logic for intent classification
+- chatbot_model.h5 - Trained LSTM model
+- classes.pkl - Serialized class labels for intent recognition
+- intents.json - Dataset containing chatbot intents, patterns, and responses
+- tokenizer.pkl - Serialized tokenizer for text processing
 
 
+## Project Overview
 
-AI-Powered Chatbot
+- This AI-powered chatbot is designed to understand and respond to user queries using Natural Language Processing (NLP) and deep learning techniques. The chatbot leverages an LSTM-based neural network for intent classification and provides human-like responses.
 
-📌 Project Overview
+# Features
 
-This AI-powered chatbot is designed to understand and respond to user queries using Natural Language Processing (NLP) and deep learning techniques. The chatbot leverages an LSTM-based neural network for intent classification and provides human-like responses.
+- AI-powered response generation using an LSTM model.
+- Natural Language Understanding (NLU) with tokenization and vectorization.
+- Voice input and output support using speech recognition and text-to-speech (TTS).
+- User-friendly interactive UI built with Streamlit.
+- Conversation history storage and downloadable logs.
 
-🚀 Features
+# Technologies Used
+- Programming Language: Python
+- Deep Learning: TensorFlow, LSTM
+- NLP: NLTK, TF-IDF, Tokenization
+- Web Framework: Streamlit
+- Speech Processing: SpeechRecognition, pyttsx3
 
-AI-powered response generation using an LSTM model.
+## 📂 Project Structure
 
-Natural Language Understanding (NLU) with tokenization and vectorization.
+- ├── app.py            # Streamlit frontend for chatbot
+- ├── chatbot.py        # Backend logic for intent classification
+- ├── chatbot_model.h5  # Trained LSTM model
+- ├── classes.pkl       # Serialized class labels for intent recognition
+- ├── tokenizer.pkl     # Serialized tokenizer for text processing
+- ├── intents.json      # Dataset containing chatbot intents, patterns, and responses
+- ├── chat_log.csv      # Stores conversation history
+- ├── README.md         # Project documentation
 
-Voice input and output support using speech recognition and text-to-speech (TTS).
+## Installation & Setup
 
-User-friendly interactive UI built with Streamlit.
+- Clone the repository
+- git clone https://github.com/your-username/chatbot-project.git
+- cd chatbot-project
+- Install dependencies
+- pip install -r requirements.txt
+- Run the chatbot application
+- streamlit run app.py
 
-Conversation history storage and downloadable logs.
+## How It Works
 
-🛠️ Technologies Used
+- The user inputs a message (text or voice).
+- The message is tokenized and vectorized using TF-IDF.
+- The LSTM model predicts the intent of the message.
+- The chatbot selects an appropriate response from the intents.json file.
+-The response is displayed in the UI and optionally read aloud.
+- Chat history is stored and can be downloaded for review.
 
-Programming Language: Python
+## Future Improvements
 
-Deep Learning: TensorFlow, LSTM
-
-NLP: NLTK, TF-IDF, Tokenization
-
-Web Framework: Streamlit
-
-Speech Processing: SpeechRecognition, pyttsx3
-
-📂 Project Structure
-
-├── app.py            # Streamlit frontend for chatbot
-├── chatbot.py        # Backend logic for intent classification
-├── chatbot_model.h5  # Trained LSTM model
-├── classes.pkl       # Serialized class labels for intent recognition
-├── tokenizer.pkl     # Serialized tokenizer for text processing
-├── intents.json      # Dataset containing chatbot intents, patterns, and responses
-├── chat_log.csv      # Stores conversation history
-├── README.md         # Project documentation
-
-🔧 Installation & Setup
-
-Clone the repository
-
-git clone https://github.com/your-username/chatbot-project.git
-cd chatbot-project
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Run the chatbot application
-
-streamlit run app.py
-
-📝 How It Works
-
-The user inputs a message (text or voice).
-
-The message is tokenized and vectorized using TF-IDF.
-
-The LSTM model predicts the intent of the message.
-
-The chatbot selects an appropriate response from the intents.json file.
-
-The response is displayed in the UI and optionally read aloud.
-
-Chat history is stored and can be downloaded for review.
-
-📌 Future Improvements
-
-Integrate Transformer-based models like BERT or GPT for improved accuracy.
-
-Implement context-awareness to remember previous messages.
-
-Deploy the chatbot as a web service using Flask or FastAPI.
-
-Enhance UI with real-time typing effects and custom themes.
-
-🤖 Screenshots
+- Integrate Transformer-based models like BERT or GPT for improved accuracy.
+- Implement context-awareness to remember previous messages.
+- Deploy the chatbot as a web service using Flask or FastAPI.
+- Enhance UI with real-time typing effects and custom themes.
 
 
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-🌟 Contributions & Feedback
-
-Feel free to fork the repository, submit pull requests, or report issues. Feedback is always welcome!
 
 
 
